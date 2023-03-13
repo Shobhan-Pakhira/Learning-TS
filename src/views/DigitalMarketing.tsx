@@ -58,21 +58,13 @@ const DigitalMarketing = () => {
 				</div>
 			</div>
 
-			{/* <div className="col-4" style={{ height: "140px" }}>
+			<div className="col-12 d-flex gap-4 flex-wrap align-items-center justify-content-around" style={{ height: "140px" }}>
 				{constants.map((data, idx) => {
 					return (
-						<div key={idx}>
-							<div
-								className="mx-4"
-								style={{
-									backgroundImage: `url(${data.logo})`,
-									height: "100px",
-								}}
-							/>
-						</div>
+						<img src={data.logo} alt='digitalmarketing'/>
 					);
 				})}
-			</div> */}
+			</div>
 		</>
 	);
 };
