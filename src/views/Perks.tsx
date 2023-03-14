@@ -1,6 +1,7 @@
 import React from 'react'
 import perks from '../assets/perks.png'
 import icn from '../assets/icon.png'
+import perksBG from '../assets/perksBG.png'
 
 type PerksItem = {
     heading: string,
@@ -28,7 +29,7 @@ const PerksData = [
 ]
 const Perks = () => {
   return (
-    <div className='container-fluid d-flex' style={{height:"720px", backgroundColor:"#F8F9FA"}}>
+    <div className=' d-flex row' style={{height:"720px", backgroundImage:`url(${perksBG})`, backgroundSize:"cover"}}>
         <div className='d-flex col justify-content-center align-items-center'>
             <div>
                 <div className='mb-4'>

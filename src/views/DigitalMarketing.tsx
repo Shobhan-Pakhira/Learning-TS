@@ -24,7 +24,7 @@ const DigitalMarketing = () => {
 				style={{
 					backgroundImage: `url(${Bgimg})`,
 					height: "830px",
-					backgroundSize: "contain",
+					backgroundSize: "cover",
 					backgroundRepeat: "no-repeat",
 				}}
 			>
@@ -58,7 +58,7 @@ const DigitalMarketing = () => {
 				</div>
 			</div>
 
-			<div className="col-12 d-flex gap-4 flex-wrap align-items-center justify-content-around" style={{ height: "140px" }}>
+			<div className="col-12 d-flex gap-4 flex-wrap align-items-center justify-content-around mb-5" style={{ height: "140px" }}>
 				{constants.map((data, idx) => {
 					return (
 						<img src={data.logo} alt='digitalmarketing'/>

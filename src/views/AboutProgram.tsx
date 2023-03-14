@@ -27,7 +27,7 @@ const SyllabusData: SyllabusItem[] = [
 
 const AboutProgram = () => {
   return (
-    <div className='container' style={{ height: 'auto' }}>
+    <div className='container mt-5' style={{ height: 'auto' }}>
       <div className='d-flex row justify-content-center'>
         <div>
           <h1 className='display-4 text-center'><strong> How it works </strong></h1>
@@ -44,23 +44,24 @@ const AboutProgram = () => {
         </div>
         <div className="row">
           <div className="col-md-6 col-sm-12 p-4">
-            <img src={sideimg} alt='sidimg'/>
+            <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, optio.</h2>
           </div>
           <div className="col-md-6 col-sm-12 p-4">
-            <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, optio.</h2>
+            <img src={sideimg} alt='sidimg'/>
           </div>
         </div>
         <div className="row">
           <div className="col-md-6 col-sm-12 p-4">
-            <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, optio.</h2>
-          </div>
-          <div className="col-md-6 col-sm-12 p-4">
             <img src={sideimg} alt='sidimg'/>
           </div>
+          <div className="col-md-6 col-sm-12 p-4">
+            <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, optio.</h2>
+          </div>
         </div>
+        
 
 
-        <div className='d-flex row justify-content-center'>
+        {/* <div className='d-flex row justify-content-center'>
           {SyllabusData.map((item, index) => (
             <div className='d-flex col vw-100' key={index} style={{ height:'350px'}}>
               <div>
@@ -70,7 +71,7 @@ const AboutProgram = () => {
               <img src={item.image} alt="img" />
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </div>
   )
