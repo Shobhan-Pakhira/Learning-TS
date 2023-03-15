@@ -2,8 +2,6 @@ import React from 'react'
 import "../index.css"
 import { FAQsData } from "./constants";
 import heroimg from "../assets/heroimg.png";
-import Background from "../assets/Background.jpg";
-import Backgroundflip from "../assets/BGflip.png";
 import MS from "../assets/MS.png";
 import Google from "../assets/Google.png";
 import Uber from "../assets/Uber.png";
@@ -12,9 +10,6 @@ import Deloite from "../assets/Deloite.png";
 import sideimg from '../assets/1st.png';
 import market from '../assets/marketing.png';
 import perks from '../assets/perks.png';
-import perksBG from '../assets/perksBG.png';
-import wave from "../assets/testimonialbg.png";
-import stars from "../assets/rating.png";
 import Money from '../assets/Money.png'
 
 import fundamental from '../assets/Fundamentals.png'
@@ -212,7 +207,7 @@ const DigiMarketing = () => {
                 <div className="container d-flex align-items-center">
                     
                     <div className="col-6 d-flex row align-content-center">
-                        <h1 className='hero-heading '>
+                        <h1 className='hero-heading mb-4 '>
                             Advance Digital Marketing Certification
                         </h1>
                         <p className="mb-3 sub-text ">
