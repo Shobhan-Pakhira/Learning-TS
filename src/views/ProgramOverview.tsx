@@ -1,5 +1,4 @@
 import React from "react";
-import "../index.css"
 import heroimg from "../assets/heroimg.png";
 import Bgimg from "../assets/Background.jpg";
 import "../index.css";
@@ -17,7 +16,7 @@ const constants = [
 	{ logo: Deloite },
 ];
 
-const DigitalMarketing = () => {
+const ProgramOverview = () => {
 	return (
 		<>
 			<div
@@ -31,27 +30,13 @@ const DigitalMarketing = () => {
 			>
 				<div className="container d-flex align-items-center">
 					<div className="col-6 d-flex row align-content-center">
-						<h1 className='hero-heading'>
-							Why YTS
+						<h1 className="display-3 text-light">
+							<strong>Advance Digital Marketing</strong>
 						</h1>
-						<p className="mb-3 sub-text">
+						<p className="mb-3 text-light">
 							{" "}
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni
-							repellat fugit, tempora aperiam assumenda quis cumque aliquid
-							nihil in suscipit molestiae, vero libero sed minima repellendus
-							doloremque ratione laboriosam earum.
+							Master digital marketing across various platforms with this online course. Learn core principles of SEO, social media, email, and content marketing to develop and implement effective campaigns. Gain the skills to execute a winning digital marketing strategy by the end of the course.
 						</p>
-						<div className="d-flex">
-							<input
-								className="bg-gray border-1"
-								type="text"
-								placeholder="Explore More"
-								style={{ width: `150px` }}
-							></input>
-							<button className="bg-primary rounded-2 ms-2 p-1 text-light border-0">
-								Apply Now
-							</button>
-						</div>
 					</div>
 					<div className="col-6">
 						<img src={heroimg} alt="image" />
@@ -59,8 +44,15 @@ const DigitalMarketing = () => {
 				</div>
 			</div>
 
+			<div className="col-12 d-flex gap-4 flex-wrap align-items-center justify-content-around mb-5" style={{ height: "140px" }}>
+				{constants.map((data, idx) => {
+					return (
+						<img src={data.logo} alt='digitalmarketing'/>
+					);
+				})}
+			</div>
 		</>
 	);
 };
 
-export default DigitalMarketing;
+export default ProgramOverview;

@@ -3,11 +3,6 @@ import perks from '../assets/perks.png'
 import icn from '../assets/icon.png'
 import perksBG from '../assets/perksBG.png'
 
-type PerksItem = {
-    heading: string,
-    subtext: string,
-    icon?: string,
-  }
   
 const PerksData = [
     {
@@ -27,6 +22,7 @@ const PerksData = [
         icon: icn
     }
 ]
+
 const Perks = () => {
   return (
     <div className=' d-flex row' style={{height:"720px", backgroundImage:`url(${perksBG})`, backgroundSize:"cover"}}>

@@ -1,7 +1,6 @@
 import React from "react";
 import wave from "../assets/testimonialbg.png";
 import stars from "../assets/rating.png";
-import quotes from "../assets/quotes.png"
 type TestimonialItems = {
 	feedback: string;
 	info: string;

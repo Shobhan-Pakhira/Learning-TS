@@ -23,7 +23,7 @@ const BenefitItem = [
         heading: " No Preparation since its a beginner friendly course. ",
         subtext: " Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. "
     }
-]
+];
 
 const Benefits = () => {
   return (
