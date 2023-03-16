@@ -9,8 +9,18 @@ import accent from "../assets/accent.png";
 import Deloite from "../assets/Deloite.png";
 import sideimg from '../assets/1st.png';
 import market from '../assets/marketing.png';
-import perks from '../assets/perks.png';
+import feature from '../assets/perks.png';
 import Money from '../assets/Money.png'
+
+import digimarketing from '../assets/digimarketing.png'
+
+import module1 from '../assets/module1.png'
+import module2 from '../assets/module2.png'
+import module3 from '../assets/module3.png'
+import module4 from '../assets/module4.png'
+import module5 from '../assets/module5.png'
+import module6 from '../assets/module6.png'
+import module7 from '../assets/module7.png'
 
 import fundamental from '../assets/Fundamentals.png'
 import guidance from '../assets/Guidance.png'
@@ -198,25 +208,23 @@ const DigiMarketing = () => {
             <div
                 className="d-flex"
                 style={{
-                    backgroundColor:"#1864AB",
                     height: "830px",
                     backgroundSize: "cover",
                     backgroundRepeat: "no-repeat",
                 }}
             >
                 <div className="container d-flex align-items-center">
-                    
+                    <div className="col-6 ms-5">
+                        <img src={digimarketing} alt="" />
+                    </div>
                     <div className="col-6 d-flex row align-content-center">
-                        <h1 className='hero-heading mb-4 '>
+                        <h1 className='hero-heading mb-4 text-dark '>
                             Advance Digital Marketing Certification
                         </h1>
-                        <p className="mb-3 sub-text ">
+                        <p className="mb-3 sub-text text-dark ">
                             {" "}
                             Master digital marketing across various platforms with this online course. Learn core principles of SEO, social media, email, and content marketing to develop and implement effective campaigns. Gain the skills to execute a winning digital marketing strategy by the end of the course.
                         </p>
-                    </div>
-                    <div className="col-6">
-                        <img src={heroimg} alt="" />
                     </div>
                 </div>
             </div>
@@ -228,11 +236,9 @@ const DigiMarketing = () => {
                         <h1 className='text-center hero-heading text-dark'><strong> Learning Path </strong></h1>
                         <h6 className='text-center sub-text text-dark mb-4'> Step by step path to success </h6>
                     </div>
+
                     <div className="row">
-                        <div className="col-md-6 col-sm-12 p-4">
-                            <img src={sideimg} alt='sidimg' style={{ backgroundSize: "cover"}}/>
-                        </div>
-                        <div className="col-md-6 col-sm-12 p-4">
+                        <div className="col-md-6 col-sm-12 p-4 d-flex row justify-content-center align-content-center">
                             <h2 className='infographic-head'> Module 1</h2>
                             <ul className='bullet-text'>
                                 <li>Introduction to Digital Marketing</li>
@@ -241,9 +247,16 @@ const DigiMarketing = () => {
                                 <li>The different types of digital marketing channels</li>
                             </ul>
                         </div>
+                        <div className="col-md-6 col-sm-12 p-4 d-flex justify-content-center align-items-center">
+                            <img src={module1} alt='sidimg' style={{ backgroundSize: "cover" }} />
+                        </div>
                     </div>
+
                     <div className="row">
-                        <div className="col-md-6 col-sm-12 p-4">
+                        <div className="col-md-6 col-sm-12 p-4 d-flex justify-content-center align-items-center">
+                            <img src={module2} alt='sidimg' />
+                        </div>
+                        <div className="col-md-6 col-sm-12 p-4 d-flex row justify-content-center align-content-center">
                             <h2 className='infographic-head'> Module 2</h2>
                             <ul className='bullet-text'>
                                 <li>Understanding the basics of SEO</li>
@@ -252,15 +265,10 @@ const DigiMarketing = () => {
                                 <li>Local SEO strategies</li>
                             </ul>
                         </div>
-                        <div className="col-md-6 col-sm-12 p-4">
-                            <img src={sideimg} alt='sidimg' />
-                        </div>
                     </div>
+
                     <div className="row">
-                        <div className="col-md-6 col-sm-12 p-4">
-                            <img src={sideimg} alt='sidimg' />
-                        </div>
-                        <div className="col-md-6 col-sm-12 p-4">
+                        <div className="col-md-6 col-sm-12 p-4 d-flex row justify-content-center align-content-center">
                             <h2 className='infographic-head'> Module 3</h2>
                             <ul className='bullet-text'>
                                 <li>Creating a social media strategy</li>
@@ -269,9 +277,16 @@ const DigiMarketing = () => {
                                 <li>Measuring social media success</li>
                             </ul>
                         </div>
+                        <div className="col-md-6 col-sm-12 p-4 d-flex justify-content-center align-items-center">
+                            <img src={module3} alt='sidimg' />
+                        </div>
                     </div>
+
                     <div className="row">
-                        <div className="col-md-6 col-sm-12 p-4">
+                        <div className="col-md-6 col-sm-12 p-4 d-flex justify-content-center align-items-center">
+                            <img src={module4} alt='sidimg' />
+                        </div>
+                        <div className="col-md-6 col-sm-12 p-4 d-flex row justify-content-center align-content-center">
                             <h2 className='infographic-head'> Module 4</h2>
                             <ul className='bullet-text'>
                                 <li>Understanding email marketing</li>
@@ -280,15 +295,10 @@ const DigiMarketing = () => {
                                 <li>Crafting effective email campaign</li>
                             </ul>
                         </div>
-                        <div className="col-md-6 col-sm-12 p-4">
-                            <img src={sideimg} alt='sidimg' />
-                        </div>
                     </div>
+
                     <div className="row">
-                        <div className="col-md-6 col-sm-12 p-4">
-                            <img src={sideimg} alt='sidimg' />
-                        </div>
-                        <div className="col-md-6 col-sm-12 p-4">
+                        <div className="col-md-6 col-sm-12 p-4 d-flex row justify-content-center align-content-center">
                             <h2 className='infographic-head'> Module 5</h2>
                             <ul className='bullet-text'>
                                 <li>Understanding content marketing</li>
@@ -297,9 +307,16 @@ const DigiMarketing = () => {
                                 <li>Measuring content marketing success</li>
                             </ul>
                         </div>
+                        <div className="col-md-6 col-sm-12 p-4 d-flex justify-content-center align-items-center">
+                            <img src={module5} alt='sidimg' />
+                        </div>
                     </div>
+
                     <div className="row">
-                        <div className="col-md-6 col-sm-12 p-4">
+                        <div className="col-md-6 col-sm-12 p-4 d-flex justify-content-center align-items-center">
+                            <img src={module6} alt='sidimg' />
+                        </div>
+                        <div className="col-md-6 col-sm-12 p-4 d-flex row justify-content-center align-content-center">
                             <h2 className='infographic-head'> Module 6</h2>
                             <ul className='bullet-text'>
                                 <li>Understanding PPC advertising</li>
@@ -308,15 +325,10 @@ const DigiMarketing = () => {
                                 <li>Measuring PPC success</li>
                             </ul>
                         </div>
-                        <div className="col-md-6 col-sm-12 p-4">
-                            <img src={sideimg} alt='sidimg' />
-                        </div>
                     </div>
+
                     <div className="row">
-                        <div className="col-md-6 col-sm-12 p-4">
-                            <img src={sideimg} alt='sidimg' />
-                        </div>
-                        <div className="col-md-6 col-sm-12 p-4">
+                        <div className="col-md-6 col-sm-12 p-4 d-flex row justify-content-center align-content-center">
                             <h2 className='infographic-head'> Module 7</h2>
                             <ul className='bullet-text'>
                                 <li>Understanding digital marketing analytics</li>
@@ -325,20 +337,22 @@ const DigiMarketing = () => {
                                 <li>Reporting and analyzing data</li>
                             </ul>
                         </div>
+                        <div className="col-md-6 col-sm-12 p-4 d-flex justify-content-center align-items-center">
+                            <img src={module7} alt='sidimg' />
+                        </div>
                     </div>
+
                 </div>
             </div>
 
             {/* 4th Scroll */}
-            <div className='container-fluid d-flex' style={{ height: "720px", backgroundColor: "#FAFAFA" }}>
+            <div className='container-fluid d-flex '>
                 <div className='d-flex col justify-content-center align-items-center'>
-                    <div>
-                        <img src={market} alt='market' />
-                    </div>
+                        <img className='me-5' src={market} alt='market' />
                     <div>
                         <div className='mb-4'>
                             <h1 className='m-0 hero-heading text-dark'><strong> Program Highlights </strong></h1>
-                            <p className='sub-text text-dark' style={{fontSize :"18px"}}>Unlock Your Potential with Our Digital Marketing Program Highlights :</p>
+                            <p className='sub-text text-dark' style={{ fontSize: "18px" }}>Unlock Your Potential with Our Digital Marketing Program Highlights :</p>
                         </div>
                         <div>
                             {HighlightsData.map((item, idx) => (
@@ -373,7 +387,7 @@ const DigiMarketing = () => {
             </div>
 
             {/* 6th Scroll */}
-            <div className=' container-fluid d-flex row' style={{ height: "720px", backgroundSize: "cover" }}>
+            <div className=' container-fluid d-flex row 100vh'>
                 <div className='d-flex col justify-content-center align-items-center'>
                     <div>
                         <div className='mb-4'>
@@ -383,17 +397,15 @@ const DigiMarketing = () => {
                         <div>
                             {PerksData.map((item, idx) => (
                                 <div key={idx} className='d-flex col align-items-start mb-2' style={{ width: "485px" }}>
-                                    <div> <img src={item.icon} alt='icn'/> </div>
+                                    <div> <img src={item.icon} alt='icn' /> </div>
                                     <div className='ms-3 '>
-                                        <div className='bullet-text' style={{ fontWeight: "200"}}><strong>{item.heading}</strong></div>
+                                        <div className='bullet-text' style={{ fontWeight: "200" }}><strong>{item.heading}</strong></div>
                                     </div>
                                 </div>
                             ))}
                         </div>
                     </div>
-                    <div>
-                        <img src={perks} alt='market' />
-                    </div>
+                    <img className='ms-5' src={feature} alt='highlights' />
                 </div>
             </div>
 
@@ -425,7 +437,7 @@ const DigiMarketing = () => {
             </div> */}
 
             {/* 8th Scroll */}
-            <div className=' container-fluid m-0 d-flex row 100vw' style={{ height: "720px", backgroundColor: "#B6E7FF", overflow:"clip" }}>
+            <div className=' container-fluid m-0 d-flex row 100vw' style={{ height: "720px" }}>
                 <div className='d-flex col justify-content-center align-items-center'>
                     <div>
                         <h1 className='hero-heading text-dark mb-4'><strong>100% Moneyback <br />Guarantee </strong></h1>
@@ -433,23 +445,21 @@ const DigiMarketing = () => {
                             {MoneyBackData.map((item, idx) => (
                                 <div key={idx} className='d-flex col align-items-center mb-3' style={{ width: "485px" }}>
                                     <div> <img src={item.icon} alt='icn' style={{ height: "48px" }} /> </div>
-                                    <div className='ms-3' style={{ fontSize: "25px", fontWeight:"500" }}>
+                                    <div className='ms-3' style={{ fontSize: "25px", fontWeight: "500" }}>
                                         {item.heading}
                                     </div>
                                 </div>
                             ))}
                         </div>
                     </div>
-                    <div>
-                        <img src={Money} alt='market' />
-                    </div>
+                    <img className='ms-5' src={Money} alt='market' />
                 </div>
             </div>
 
             {/* 9th Scroll */}
-            <div style={{backgroundColor: '#1864AB'}}>
+            <div style={{ backgroundColor: '#1864AB' }}>
                 <div className='text-center p-5'>
-                    <h1 className='hero-heading m-0' style={{fontSize:"40px"}}>Ready to get started?</h1>
+                    <h1 className='hero-heading m-0' style={{ fontSize: "40px" }}>Ready to get started?</h1>
                     <h5 className='sub-text'>Contact us or sign up now !</h5>
                     <div className='d-flex col justify-content-center align-items-center'>
                         <button className='p-2 my-2 me-4 rounded-1 border-0 bg-light '>Get Started</button>
